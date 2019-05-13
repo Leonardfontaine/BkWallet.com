@@ -1,20 +1,18 @@
 body{
-    font-family: Roboto, sans-serif!important;
-    color: #45717C !important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 16px;
+    font-weight: 300;
+    color: white!important;
     background-color: #0b267d !important;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    line-height: 30px;
+    text-align: center !important;
 }
+
+strong { font-weight: 600; }
 
 /* Css part for the navbar */
 .navbar{
     background-color: #121a6d;
-    position: fixed!important;
-    width: 100%;
-}
-
-.nav-item-active a{
-    color: #45717C;
 }
 
 .nav-link,.navbar-brand{
@@ -33,15 +31,65 @@ body{
 }
 
 .navbar .navbar-toggler-icon {
-  background-image: url("../image/dropdown.png");
+  background-image: url("../image/burger.png");
 }
 
 .nav-item-active{
     margin-top: auto;
     margin-bottom: auto;
+    border-bottom-color: #ed63c2;
+    border-bottom-style: solid;
 }
 
 .nav-item-active a{
     margin-top: 3px;
     color: #ed63c2;
+}
+
+.block{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.home{
+    margin-top: 10%;
+}
+/* images for "how it work" */
+.register{
+    background-color: orange;
+    padding: 10px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.enterinformation{
+    background-color: lightpink;
+    padding: 10px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.startsharing{
+    background-color: skyblue;
+    padding: 10px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.startearning{
+    background-color: deepskyblue;
+    padding: 10px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.line{
+    display: flex;
+}
+
+.lilFont{
+    font-size: 13px;
 }
