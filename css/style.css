@@ -1,0 +1,47 @@
+body{
+    font-family: Roboto, sans-serif!important;
+    color: #45717C !important;
+    background-color: #0b267d !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Css part for the navbar */
+.navbar{
+    background-color: #121a6d;
+    position: fixed!important;
+    width: 100%;
+}
+
+.nav-item-active a{
+    color: #45717C;
+}
+
+.nav-link,.navbar-brand{
+    color: azure;
+}
+
+.navbar-brand:hover,.nav-link:hover{
+    color: #cfcfcf !important;
+}
+
+.nav-item{
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right: 3px;
+    
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("../image/dropdown.png");
+}
+
+.nav-item-active{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-item-active a{
+    margin-top: 3px;
+    color: #ed63c2;
+}
