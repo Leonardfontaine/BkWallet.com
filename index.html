@@ -30,7 +30,7 @@
                   <a class="nav-link scroll-link" href="#work"><strong>About</strong></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#2"><strong>How does it work</strong></a>
+                  <a class="nav-link scroll-link" href="#features"><strong>How does it work</strong></a>
               </li>
               <li class="nav-item">
                   <a class="nav-link scroll-link" href="#"><strong>Token</strong></a>
@@ -76,8 +76,14 @@
 
             </div>            
         </div>
-        <div class="home" id="work">
-            <div class="container">
+        
+        <div class="howork" id="work">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <div class="container smooth">
                 <div class="row">
                     <div class="col-md-5 offset-md-1 col-sm-8">
                         <div class="line">
@@ -115,13 +121,80 @@
                 </div>
             </div>
         </div>
+            
+        <div class="features" id="features">
+            <div class="container smooth">
+                <center><h3>Features</h3></center>
+                <br/><br/>
+                <div class="row">
+                        
+                        <div class="column col-md-5 offset-md-1">
+                            <div class="line">
+                            <img src="image/pay.png" width="25%" height="100%">
+                            <div class="column">    
+                                    <h5> Pay</h5>
+                                    <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <img src="image/recharge.png" width="25%" height="100%">
+                                <div class="column">    
+                                    <h5> Recharge</h5>
+                                    <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <img src="image/qr_code.png" width="25%" height="100%">
+                                <div class="column">    
+                                    <h5> QR Code</h5>
+                                    <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
+                                </div>
+                            </div>
+                        </div>
+                     <div class="column col-md-5">
+                            <div class="line">
+                            <img src="image/withdraw.png" width="25%" height="100%">
+                            <div class="column">    
+                                    <h5>Withdraw</h5>
+                                    <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <img src="image/history.png" width="25%" height="100%">
+                                <div class="column">    
+                                    <h5> History</h5>
+                                    <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <img src="image/paypal.png" width="25%" height="100%">
+                                <div class="column">    
+                                    <h5> Paypal</h5>
+                                    <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <br/>
         <br/>
         <br/>
         <br/>
         <br/>
         </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+        <script>
+        $('.smooth').on('click', function() {
+            $.smoothScroll({
+                scrollElement: $('body'),
+                scrollTarget: '#' + this.id
+            });
 
+            return false;
+        });
+        </script>
     </body>
     
 </html>
