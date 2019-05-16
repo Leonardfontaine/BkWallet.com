@@ -15,8 +15,17 @@ strong { font-weight: 600; }
     background-color: #121a6d;
 }
 
+
 .nav-link,.navbar-brand{
     color: azure;
+}
+
+.nav-link.active{
+    color:#ed63c2 !important; 
+    background-color: transparent!important;
+    border-radius: 0%!important;
+    border-bottom-color: #ed63c2 !important;
+    border-bottom-style: solid !important;
 }
 
 .navbar-brand:hover,.nav-link:hover{
@@ -34,12 +43,6 @@ strong { font-weight: 600; }
   background-image: url("../image/burger.png");
 }
 
-.nav-item-active{
-    margin-top: auto;
-    margin-bottom: auto;
-    border-bottom-color: #ed63c2;
-    border-bottom-style: solid;
-}
 
 .nav-item-active a{
     margin-top: 3px;
@@ -51,40 +54,36 @@ strong { font-weight: 600; }
     margin-bottom: auto;
 }
 
-.home{
-    margin-top: 10%;
-    margin-bottom: 15%;
-}
 .howork{
-    margin-bottom: 15%;
+    border-top: solid;
+    border-top-color: skyblue;
+    border-bottom: solid;
+    border-bottom-color: skyblue
 }
-.features{
-
+.features,.roadmap{
+   border-bottom: solid;
+   border-bottom-color: skyblue 
 }
 /* images for "how it work" */
 .register{
     background-color: orange;
     padding: 10px;
     margin-right: 5%;
-    border-radius: 50%;
 }
 .enterinformation{
     background-color: lightpink;
     padding: 10px;
     margin-right: 5%;
-    border-radius: 50%;
 }
 .startsharing{
     background-color: skyblue;
     padding: 10px;
     margin-right: 5%;
-    border-radius: 50%;
 }
 .startearning{
     background-color: deepskyblue;
     padding: 10px;
     margin-right: 5%;
-    border-radius: 50%;
 }
 
 .column{
@@ -100,3 +99,4 @@ strong { font-weight: 600; }
 .lilFont{
     font-size: 13px;
 }
+

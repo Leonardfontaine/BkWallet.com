@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
  
  
     <head>
@@ -7,45 +7,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title> BK Wallet</title>
         <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="image/logo.jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
     </head>
 
     <header>
 
-        <nav class="navbar fixed-top navbar-expand-md">
-          <a class="navbar-brand" href="index.html">BK Wallet</a>
+        <nav id="navbarscroll" class="navbar fixed-top navbar-expand-md">
+          <a class="navbar-brand" href="index.html"><img src="image/logo.jpg" width="50px" alt=""></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item-active">
-                  <a class="nav-link selected scroll-link" href="#"><strong>Home</strong> <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav ml-auto nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link active scroll-link js-scrollTo" href="#about"><strong>About</strong> <span class="sr-only"></span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#work"><strong>About</strong></a>
+                  <a class="nav-link scroll-link js-scrollTo" href="#work"><strong>How does it work ?</strong></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#features"><strong>How does it work</strong></a>
+                  <a class="nav-link scroll-link js-scrollTo" href="#features"><strong>Features</strong></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#"><strong>Token</strong></a>
+                  <a class="nav-link scroll-link js-scrollTo" href="#roadmap"><strong>Roadmap</strong></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#"><strong>Road map</strong></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#"><strong>Team</strong></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#"><strong>FAQ</strong></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link scroll-link" href="#"><strong>Contact</strong></a>
+                  <a class="nav-link scroll-link js-scrollTo" href="#ourteam"><strong>Our team</strong></a>
               </li>
             </ul>
 
@@ -56,15 +50,21 @@
 
     </header>
 
-    <body>
+    <body data-spy="scroll" data-target="#navbarscroll" data-offset="0">
 
 
         <main>
         <div class="home">
             <div class="container smooth" id="about">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div class="row">
-                    <div class="col-md-6 col-sm-8">
-                        <img src="image/web.png" width="75%" class="center-block">
+                    <div class="col-md-6 col-sm-6">
+                        <img src="image/web.png" width="400px" class="center-block">
                     </div>
                     <div class="col-md-6 col-sm-6 block">
                         <center><h4>About the bk wallet</h4></center>
@@ -76,7 +76,13 @@
 
             </div>            
         </div>
-        
+        <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         <div class="howork" id="work">
         <br/>
         <br/>
@@ -87,28 +93,28 @@
                 <div class="row">
                     <div class="col-md-5 offset-md-1 col-sm-8">
                         <div class="line">
-                            <img src="image/register.png" class="register" width="50%" height="50%">
+                            <img src="image/register.png" class="register rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <h5> Register/Login To Our Platform</h5>
                                 <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                             </div>
                         </div>
                         <div class="line">
-                            <img src="image/enterinformation.png" class="enterinformation" width="50%" height="50%">
+                            <img src="image/enterinformation.png" class="enterinformation rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <h5> Enter your informations details</h5>
                                 <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                             </div>
                         </div>
                         <div class="line">
-                            <img src="image/startshaing.png" class="startsharing" width="50%" height="50%">
+                            <img src="image/startshaing.png" class="startsharing rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <h5> Start sharing your referral link</h5>
                                 <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                             </div>
                         </div>
                         <div class="line">
-                            <img src="image/startearning.png" class="startearning" width="50%" height="50%">
+                            <img src="image/startearning.png" class="startearning rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <h5> Start earning from affiliate system</h5>
                                 <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
@@ -120,9 +126,20 @@
                     </div>
                 </div>
             </div>
+            <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         </div>
             
         <div class="features" id="features">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <br/>
             <div class="container smooth">
                 <center><h3>Features</h3></center>
                 <br/><br/>
@@ -130,21 +147,21 @@
                         
                         <div class="column col-md-5 offset-md-1">
                             <div class="line">
-                            <img src="image/pay.png" width="25%" height="100%">
+                            <img src="image/pay.png" width="100px" height="100px">
                             <div class="column">    
                                     <h5> Pay</h5>
                                     <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                                 </div>
                             </div>
                             <div class="line">
-                                <img src="image/recharge.png" width="25%" height="100%">
+                                <img src="image/recharge.png" width="100px" height="100px">
                                 <div class="column">    
                                     <h5> Recharge</h5>
                                     <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                                 </div>
                             </div>
                             <div class="line">
-                                <img src="image/qr_code.png" width="25%" height="100%">
+                                <img src="image/qr_code.png" width="100px" height="100px">
                                 <div class="column">    
                                     <h5> QR Code</h5>
                                     <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
@@ -153,21 +170,21 @@
                         </div>
                      <div class="column col-md-5">
                             <div class="line">
-                            <img src="image/withdraw.png" width="25%" height="100%">
+                            <img src="image/withdraw.png" width="100px" height="100px">
                             <div class="column">    
                                     <h5>Withdraw</h5>
                                     <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                                 </div>
                             </div>
                             <div class="line">
-                                <img src="image/history.png" width="25%" height="100%">
+                                <img src="image/history.png" width="100px" height="100px">
                                 <div class="column">    
                                     <h5> History</h5>
                                     <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
                                 </div>
                             </div>
                             <div class="line">
-                                <img src="image/paypal.png" width="25%" height="100%">
+                                <img src="image/paypal.png" width="100px" height="100px">
                                 <div class="column">    
                                     <h5> Paypal</h5>
                                     <p class="lilFont">Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor</p>
@@ -176,24 +193,155 @@
                     </div>
                 </div>
             </div>
+            <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        </div>
+            
+        <div class="roadmap">
+            
+            <div class="container smooth" id="roadmap">
+                <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+                <center><h3> Roadmap</h3></center>
+                <br/>
+                <center><p>The use of crypto-currencies has become more widespread, and they are now increasingly <br/> accepted as a legitimate currency for transactions</p></center>
+                <br>
+                <div class="container slickmap">
+                    <div class="column">
+                        <img src="image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
+                        <img src="image/node.png" width="50px" height="50px" style="margin-left: auto; margin-right: auto;">
+                        <center><h6> February 2018</h6></center>
+                        <center><p style="font-size: 14px">Exchange Cryptocash to Bitcoin</p></center>
+                    </div>
+                    <div class="column">
+                        <img src="image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
+                        <img src="image/node.png" width="50px" height="50px" style="margin-left: auto; margin-right: auto;">
+                        <center><h6> March 2018</h6></center>
+                        <center><p style="font-size: 14px">BTCC made of payment in Cyptocash</p></center>
+                    </div>
+                    <div class="column">
+                        <img src="image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
+                        <img src="image/node.png" width="50px" height="50px" style="margin-left: auto; margin-right: auto;">
+                        <center><h6> June 2018</h6></center>
+                        <center><p style="font-size: 14px">Send-Receive coin Cyptocash & mobile</p></center>
+                    </div>
+                    <div class="column">
+                        <img src="image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
+                        <img src="image/node.png" width="50px" height="50px" style="margin-left: auto; margin-right: auto;">
+                        <center><h6> October 2018</h6></center>
+                        <center><p style="font-size: 14px">Coin Marketcap, World Coin index</p></center>
+                    </div>
+                    <div class="column">
+                        <img src="image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
+                        <img src="image/node.png" width="50px" height="50px" style="margin-left: auto; margin-right: auto;">
+                        <center><h6> December 2018</h6></center>
+                        <center><p style="font-size: 14px">Exchange Cryptocash to Bitcoin</p></center>
+                    </div>
+                    <div class="column">
+                        <img src="image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
+                        <img src="image/node.png" width="50px" height="50px" style="margin-left: auto; margin-right: auto;">
+                        <center><h6> December 2018</h6></center>
+                        <center><p style="font-size: 14px">Deposit bitcoi  from your account</p></center>
+                    </div>
+            
+                </div>
+                 <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>  
+            
+        </div>
+        
+        <div class="team">
+            <div class="container"id="ourteam">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <center><h3> Our team</h3></center>
+                <br/>
+                <center><p>We are proud of our great team. They are one of the most motivated and enthusiastic people we have,<br/> and they are always ready and willing to help out where needed</p></center>
+                <div class="row">
+                <div class="col-md-3">
+                    <img src="image/khunganh.png" width="200px" alt="member">
+                    <center><h5>Name</h5></center>
+                </div>
+                <div class="col-md-3">
+                    <img src="image/khunganh.png" width="200px" alt="member">
+                    <center><h5>Name</h5></center>
+                    <center><p>role</p></center>
+                </div>
+                    <div class="col-md-3">
+                    <img src="image/khunganh.png" width="200px" alt="member">
+                    <center><h5>Name</h5></center>
+                    <center><p>role</p></center>
+                </div>
+                <div class="col-md-3">
+                    <img src="image/khunganh.png" width="200px" alt="member">
+                    <center><h5>Name</h5></center>
+                    <center><p>role</p></center>
+                </div>
+                </div>
+                <br>
+
+            </div>            
         </div>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-        <script>
-        $('.smooth').on('click', function() {
-            $.smoothScroll({
-                scrollElement: $('body'),
-                scrollTarget: '#' + this.id
-            });
+        <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.3.1.min.js"></script>
+        <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script> 
 
-            return false;
+        <script type="text/javascript">
+        $('.slickmap').slick({
+          slidesToShow: 5,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                slidesToShow: 1
+              }
+            }
+          ]
         });
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.js-scrollTo').on('click', function() {
+                    var page = $(this).attr('href'); 
+                    var speed = 750; 
+                    $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); 
+                    return false;
+                });
+            });
         </script>
     </body>
     
